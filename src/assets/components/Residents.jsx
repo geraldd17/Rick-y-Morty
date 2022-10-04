@@ -9,7 +9,7 @@ const Residents = ({ url }) => {
             .then(res => setResidentsCard(res.data))
             .catch(err => console.log(err))
     }, [])
-    
+
     return (
         <article className='card_residents'>
             <div className="card_header">

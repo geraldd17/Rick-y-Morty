@@ -15,7 +15,7 @@
     max-width: 800px;
     height: 120px;
     color: white;
-    background-color: #16251b8e;
+    background-color: #16251bc5;
     text-align: center;
     padding: 10px;
     border-radius: 10px;
@@ -52,7 +52,7 @@
 }
 
 .location_span {
-    color: #bdffa2;
+    color: #bcffa27b;
     display: flex;
 
 
@@ -63,18 +63,21 @@
         flex-direction: column;
         margin-right: 0;
     }
+
     .location {
         max-width: 900px;
-      
+
 
     }
+
     .location_items {
-     font-size: 10px;
+        font-size: 10px;
     }
-    .location_name{
+
+    .location_name {
         font-size: 20px;
     }
-  
+
 }
 
 
@@ -87,7 +90,8 @@
     max-width: 250px;
 
 }
-@media(max-width: 768px){
+
+@media(max-width: 768px) {
     .card_residents {
         max-width: 400px;
         margin: 0;
