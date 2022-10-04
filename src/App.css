@@ -1,0 +1,160 @@
+/************************Location**************************/
+
+
+.getlocation {
+    display: flex;
+    position: sticky;
+    max-width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.location {
+    max-width: 800px;
+    height: 120px;
+    color: white;
+    background-color: #16251b8e;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+}
+
+.location_card {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.info_card {
+    display: flex;
+    gap: 100px;
+
+    justify-content: center;
+    text-align: center;
+}
+
+.card_items {
+    display: flex;
+    margin-top: 20px;
+
+
+}
+
+
+.location_items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.location_span {
+    color: #bdffa2;
+    display: flex;
+
+
+}
+
+@media(max-width: 768px) {
+    .getlocation {
+        flex-direction: column;
+        margin-right: 0;
+    }
+    .location {
+        max-width: 900px;
+      
+
+    }
+    .location_items {
+     font-size: 10px;
+    }
+    .location_name{
+        font-size: 20px;
+    }
+  
+}
+
+
+/************************Residents**************************/
+.card_residents {
+    background-color: #062226;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 250px;
+
+}
+@media(max-width: 768px){
+    .card_residents {
+        max-width: 400px;
+        margin: 0;
+    }
+}
+
+.card_header {
+    position: relative;
+}
+
+.card_container {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100px;
+    background-color: #062226;
+    padding: 5px;
+    border-radius: 0 10px 10px 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.card_circle {
+    width: 10px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 5px;
+}
+
+.Dead {
+    background-color: red;
+}
+
+.unknown {
+    background-color: #aaa;
+}
+
+.Alive {
+    background-color: green;
+}
+
+.card_body {
+    padding: 20px;
+}
+
+.card_name {
+    font-weight: 700;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.card_list {
+    display: grid;
+    gap: 12px;
+}
+
+.card_item {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+
+}
+
+.card_span {
+    color: #ccc9
+}
