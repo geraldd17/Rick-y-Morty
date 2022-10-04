@@ -11,8 +11,10 @@
     align-items: center;
     border-radius: 8px;
     width: 400px;
-    background-color: #bcffa2ae;
+    background-color: #0e2106ae;
     color: black;
+    list-style: none;
+    
 }
 
 
